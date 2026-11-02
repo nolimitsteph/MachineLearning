@@ -17,7 +17,7 @@ data.plot(kind='density', subplots=True, layout=(3,3), sharex=False)
 pyplot.show()
 
 #box plots
-data.plot(kind='box', subplots=True, layout=(3,3), sharex=False, sharey=False)
+data.plot(kind='box', subplots=True, layout=(1,9), sharex=False, sharey=False)
 pyplot.show()
 
 #multivariate plots

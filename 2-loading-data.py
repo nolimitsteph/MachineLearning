@@ -4,6 +4,7 @@ from numpy import loadtxt
 filename = 'pima-indians-diabetes.csv'
 raw_data = open(filename, 'rb')
 data = loadtxt(raw_data, delimiter=",")
+print(data)
 print(data.shape)
 
 
@@ -12,5 +13,6 @@ from pandas import read_csv
 filename = 'pima-indians-diabetes.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 data = read_csv(filename, names=names)
+print(data)
 print(data.shape)
 
